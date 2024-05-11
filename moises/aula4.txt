@@ -1,0 +1,166 @@
+//e= && 
+//ou= || 
+
+//console.log("Try programiz.pro");
+let nota_1
+let nota_2 = parsefloat(prompt('qual sua nota?')) 
+let media =(nota_1 + nota_2)/2
+
+if(media < 7  {
+    console.log('aluno foi aprovado!!!')
+}){else if(media>= 7 && media <10)
+{
+    console.log("aluno foi aprovado!!!"){
+        
+    }else{console.log('aprovado com destinção')
+}
+/ou= || 
+
+//console.log("Try programiz.pro");
+let nota_1 = parseFloat(prompt('qual sua nota?'))
+let nota_2 = parseFloat(prompt('qual sua nota?')) 
+let media =(nota_1 + nota_2)/2
+
+if(nota_1  < 0 || nota_1 > 10 )
+console.log('nota invalida!!!')  
+
+
+/if(media < 7 ) {
+    console.log('aluno foi aprovado!!!')
+    
+}else if(media >= 7 && media < 10){
+
+    console.log("aluno foi aprovado!!!")
+        
+    }else{
+        console.log('aprovado com destinção')
+}*
+
+
+//ou= ||
+let  ganho = parseFloat(prompt('quanto voce ganha?'))
+let trabalho = parseFloat(prompt('quanta horas vc trabalha?'))
+ console.log(trabalho *ganho)
+ main.js
+
+ Run 
+}
+
+
+let p1 = parseFloat(prompt("qual presço dos  primeiro produtos?"))
+let p2 = parseFloat(prompt("qual presço dos  segundo  produtos?"))
+let p3 = parseFloat(prompt("qual presço dos  treceiro produtos?"))
+if(p1 < p2 && p1 < p3){
+    console.log('orpimeiro produto e mais barato')
+}if(p2 < p1 && p2 < p3){
+    console.log('segundo  produto e mais barato')
+}if(p3 < p1 && p3 < p2){
+    console.log('terceiro o produto e mais barato')
+}
+//o novo salário, após o aumento.
+
+let salario = parseFloat(prompt('qual e o seu salario? '))
+
+if(salario <= 280){
+let aumento = 20
+let calculo = (salario * aumento)/100 
+let salario_total = salario + calculo
+console.log(`salario base é ${salario}`)
+console.log(`o aumento foi de ${aumento}`)
+console.log(`o aumento do calculo foi de ${calculo}`)
+console.log(`o valor total e de ${salario_total}`)
+} 
+
+
+else if(salario >280 && salario <=1500 ){
+let aumento = 10
+let calculo = (salario * aumento)/100 
+let salario_total = salario + calculo
+console.log(`salario base é ${salario}`)
+console.log(`o aumento foi de ${aumento}`)
+console.log(`o aumento do calculo foi de ${calculo}`)
+console.log(`o valor total e de ${salario_total}`)
+}//as organizações  trabalho desevoveram dar um aumento de salario aos seus colaboradore e te contrar para 
+///desenvolver um progama que calculará os reajustes.
+//faça um progama que recebe o salario de um colaborador 
+//eo reajustes segundo criterio.baseado  no salario atual:
+//Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
+//salários até R$ 280,00 (incluindo) : aumento de 20%
+//salários entre R$ 280,00 e R$ 700,00 : aumento de 15%
+//salários entre R$ 700,00 e R$ 1500,00 : aumento de 10%
+//salários de R$ 1500,00 em diante : aumento de 5% Após o aumento ser realizado, informe na tela:
+//o salário antes do reajuste;
+//o percentual de aumento aplicado;
+//o valor do aumento;
+//o novo salário, após o aumento.
+/*let salario = parseFloat(prompt('qual e o seu salario? '))
+
+if(salario <= 280){
+let aumento = 20
+let calculo = (salario * aumento)/100 
+let salario_total = salario + calculo
+console.log(`salario base é ${salario}`)
+console.log(`o aumento foi de ${aumento}`)
+console.log(`o aumento do calculo foi de ${calculo}`)
+console.log(`o valor total e de ${salario_total}`)
+} 
+
+
+else if(salario >280 && salario <=1500 ){
+let aumento = 10
+let calculo = (salario * aumento)/100 
+let salario_total = salario + calculo
+console.log(`salario base é ${salario}`)
+console.log(`o aumento foi de ${aumento}`)
+console.log(`o aumento do calculo foi de ${calculo}`)
+console.log(`o valor total e de ${salario_total}`)
+}*/
+let altura = parseFloat('qual sua altura ?') 
+let genero = prompt('qual e o seu genero ?') 
+if(genero == "masculino"){
+    let peso_ideal =(62.1 * altura)- 44.7
+    console.log(`seu peso ideal  e de kg ${pesoideal}`)
+}}
+me = "moises"
+//console.log(nome.length)
+//console.log(nome.toUpperCase())
+
+//if(genero == "m" || genero == "f"){
+    
+    
+//}
+console.log(nome[3])
+
+let media = parseInt(prompt("quantas medidas colocar?"))
+let soma = 0 
+for(let variavel = 0 ; variavel < media ; variavel++){
+    //nome          //condiçao      //icremento
+    soma += variavel
+    console.log (`soma= ${soma}|variavel = ${ variavel} | ${soma}+${ variavel}`)
+}
+
+//let nome = "moises"
+//console.log(nome.length)
+//console.log(nome.toUpperCase())
+//if(genero == "m" || genero == "f"){
+//}
+//console.log(nome[3])
+//for(let variavel = 0 ; variavel <= 10 ; variavel++){}
+    //nome          //condiçao      //icremento
+ //   console.log (variavel)
+
+let media = parseInt(prompt("quantas medidas colocar?"))
+for(let variavel = 0 ; variavel <= 10 ; variavel++){
+let soma = 0 //for(let variavel = 0 ; variavel < media ; variavel++){
+        //condiçao      //icremento
+    soma += variavel
+    console.log (`soma = ${soma}|variavel = ${ variavel} | ${ variavel}
+    + soma}`)
+    soma += variavel
+}
+
+
+//let numero = parseInt(prompt('qual numero deseja ver na tabuada?'))
+//for(let x = 0 ; x < 10 ; x++){
+  //  console.log (`${numero}x${x}=${numero*x}`)
+//}
